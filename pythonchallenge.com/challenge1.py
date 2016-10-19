@@ -1,4 +1,5 @@
-strs = 'abcdefghijklmnopqrstuvwxyz'      #use a string like this, instead of ord() 
+#Challenge #1 from www.pythonchallenge.com
+strs = 'abcdefghijklmnopqrstuvwxyz'      #use a string like this, instead of ord()
 
 
 def shifttext(shift):
@@ -13,3 +14,5 @@ def shifttext(shift):
     return output
 
 print(shifttext(2))
+
+# as a resul applying 'ocr' to the url

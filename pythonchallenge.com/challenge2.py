@@ -1232,3 +1232,4 @@ for s in symbols:
         counts[s] += 1
 print(counts)
 
+# As a rezult, out of rare symbols we've got word: 'equality'
