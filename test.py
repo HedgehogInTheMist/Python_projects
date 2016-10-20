@@ -1,15 +1,13 @@
-strs = 'abcdefghijklmnopqrstuvwxyz'      #use a string like this, instead of ord() 
+import re
+
+print(dir(re))
+m = "sdf"
 
 
-def shifttext(shift):
-    inp = raw_input('Input text here: ')
-    data = []
-    for i in inp:                     #iterate over the text not some list
-        if i.strip() and i in strs:                 # if the char is not a space ""  
-            data.append(strs[(strs.index(i) + shift) % 26])    
-        else:
-            data.append(i)           #if space the simply append it to data
-    output = ''.join(data)
-    return output
+def method():
+    pass
 
-print(shifttext(2))
+
+def method_two():
+    m = re.match(r'(.*[/\\]index.html*#)')
+    pass
