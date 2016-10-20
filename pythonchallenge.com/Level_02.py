@@ -1,4 +1,6 @@
-#Challenge #2 from www.pythonchallenge.com
+# Challenge #2 from www.pythonchallenge.com
+# http://www.pythonchallenge.com/pc/def/ocr.html
+
 from string import maketrans
 
 string = """%%$@_$^__#)^)&!_+]!*@&^}@[@%]()%+$&[(_@%+%$*^@$^!+]!&_#)_*}{}}!}_]$[%}@[{_@#_^{*
@@ -1222,7 +1224,6 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 }!)$]&($)@](+(#{$)_%^%_^^#][{*[)%}+[##(##^{$}^]#&(&*{)%)&][&{]&#]}[[^^&[!#}${@_(
 #@}&$[[%]_&$+)$!%{(}$^$}*"""
 
-
 symbols = list(string)
 counts = dict()
 for s in symbols:
@@ -1232,4 +1233,4 @@ for s in symbols:
         counts[s] += 1
 print(counts)
 
-# As a rezult, out of rare symbols we've got word: 'equality'
+# As a rezult, out of rare symbols we've got word: 'equality' which we apply to the next url
